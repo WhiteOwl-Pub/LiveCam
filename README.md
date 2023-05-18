@@ -37,10 +37,10 @@ Note: URL link must be in the single Single quotes.
 1. chose a live camera you what to run with the script.
 
 2. go to inspect mode and click on the live camera
-![image info](Images/web.png)
+![image info](Images/web.PNG)
 
 3. copy the link and use it in script
-![image info](Images/link.png)
+![image info](Images/link.PNG)
 
 ## Example
 
