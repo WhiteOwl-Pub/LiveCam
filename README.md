@@ -1,5 +1,6 @@
 # Live Image Capture to Video
 
+![image info](Images/final.PNG)
 This script captures live images from a given URL of insecam.org site and creates a video with faster FPS. 
 the captured video is automatically save in local directory.
 
