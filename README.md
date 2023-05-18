@@ -1,6 +1,8 @@
 # Live Image Capture to Video
 
-This script captures live images from a given URL and creates a video from them.
+This script captures live images from a given URL of insecam.org site and creates a video with faster FPS. 
+the captured video is automatically save in local directory.
+
 
 ## Prerequisites
 
@@ -15,14 +17,12 @@ This script captures live images from a given URL and creates a video from them.
 
 pip install opencv-python
 
-csharp
-
-
+4. Use the URL of live camera grabbed from insecam site.
 3. Run the script with the desired options:
 
 python liveCam.py -u '<URL>' [-f <FPS>] [-n <num_images>]
 
-Note: URL link must be in the single Single quotation.
+Note: URL link must be in the single Single quotes.
 ========>
 
 - `<URL>`: URL of the live image capture link (required).
@@ -32,6 +32,15 @@ Note: URL link must be in the single Single quotation.
 4. The script will start capturing live images from the provided URL and display them in a window. Press 'q' to stop the process.
 
 5. Once the capturing is complete, the script will generate a video file named `output.avi` in the same directory.
+
+## how grab specific live camera URL from insecam site
+1. chose a live camera you what to run with the script.
+
+2. go to inspect mode and click on the live camera
+![web](/images/web.png)
+
+3. copy the link and use it in script
+![web](/images/link.png)
 
 ## Example
 
